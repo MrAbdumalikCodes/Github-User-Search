@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+body{
+  width: 100%;
+  height: 100%;
+  background-color: #141D2F;
+}
+.dark{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Space Mono',sans-serif;
+  height:100%;
+}
+.App_images__inpe2{
+  width: 300px;
+  height: 300px;
+}
+.infor{
+  opacity: 0.5;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.box{
+  width: 730px;
+  height: auto;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+.boxis{
+  width: 730px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+.imgnot{
+  width: 400px;
+  height: 400px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  width: 730px;
+  align-items: center;
+  height: 38px;
+}
+
+.title{
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.them{
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: right;
+  letter-spacing: 2.5px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  color: #FFFFFF;
+  transition: 0.5s;
+}
+.them:hover{
+  color: #90A4D4;
+}
+
+.inputBox{
+  margin-top: 35px;
+  width: 730px;
+  background: #1E2A47;
+  border-radius: 15px;
+  height: 69px;
+  display: flex;
+  align-items: center;
+}
+.ic{
+  margin-left: 32px;
+  margin-right: 26px;
+}
+.inp{
+  width: 460px;
+  font-family: 'Space Mono',sans-serif;
+  background-color: transparent;
+  height: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  border: 0;
+  outline: 0;
+  color: #FFFFFF;
+}
+.btn{
+  width: 106px;
+  height: 50px;
+  background: #0079FF;
+  border-radius: 10px;
+  margin-left: 60px;
+  border: 0;
+  outline: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  transition: 0.5s;
+  color: #FFFFFF;
+}
+.btn:hover{
+  background-color:#60ABFF;
+}
+.profileInfo{
+  width: 730px;
+  display: flex;
+  gap: 37px;
+  justify-content: center;
+  height: 459px;
+  background: #1E2A47;
+  border-radius: 15px;
+  margin-top: 24px;
+}
+
+.info{
+  width: 480px;
+  margin-top: 48px;
+  height: 80%;
+}
+.images{
+  margin-top: 48px;
+  cursor: pointer;
+  width: 117px;
+  height: 117px;
+  border-radius: 50%;
+}
+.names{
+  width: 480px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.full{
+  font-family: 'Space Mono';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+.nic{
+  font-family: 'Space Mono';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  color: #0079FF;
+}
+.age{
+  margin-top: 10px;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: right;
+  color: #FFFFFF;
+}
+.bioghraphy{
+  margin-top: 35px;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  width: 480px;
+  height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+.follows{
+  width: 480px;
+  height: 85px;
+  background: #141D2F;
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+.followers{
+  width: 72px;
+  height: 53px;
+}
+.txt{
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.num{
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.urls{
+  margin-top: 37px;
+  width: 480px;
+  height: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.item{
+  width: 212px;
+  height: 22px;
+  display: flex;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #FFFFFF;
+  gap: 19px;
+
+}
